@@ -1,14 +1,14 @@
 #norvex
 
-a minimal ui CSS3 library
+a css module for an animated slide menu with svg
 
 ## Quick Start
 
 To get started with norvex either:
 - Download the latest release
-- Clone the repo `git clone https://github.com/StevenIseki/norvex.git`
-- Install with [Bower](http://bower.io): `bower install norvex`
-- Install with [npm](http://npmjs.org): `npm install norvex`
+- Clone the repo `git clone https://github.com/StevenIseki/slidemenu.git`
+- Install with [Bower](http://bower.io): `bower install slidemenu`
+- Install with [npm](http://npmjs.org): `npm install slidemenu`
 
 ## License
 
@@ -33,93 +33,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-## Documentation
-
-###Form elements
-***
-http://norvex.org/form-elements.html
-
-email
-password
-input
-input with help
-input with placeholder
-textarea
-submit, reset button
-multiple (tag) select box
-select box
-datepicker field
-color picker RGB
-color picker HEX
-color palette
-username
-.com field
-button field
-checkbox inputs
-radio inputs
-
-
-###elements
-***
-
-alerts
-badge
-buttons
-button dropdowns
-card flip
-notification
-progress bar
-tooltip
-growl notification
-labels
-pager
-panel - title and content
-list group (w hover)
-toggle switch
-range slider
-drop down menu
-
-###grids
-***
-http://norvex.org/grid.html
-
-###tables
-***
-http://norvex.org/tables.html#
-
-###Apps
-***
-May be outside of scope
-http://norvex.org/widgets.html
-
-breadcrumb
-tab navigation (vertical & horiz)
-Accordion
-Announcements
-todo list
-Promo
-Slider
-Tile View
-List View
-AutoComplete
-Like 
-Tag Cloud
-rich text editor
-upload file
-
-
-###Form Validation
-***
-May be outside of scope
-http://norvex.org/validation-elements.html
-
-Check at least 2 checkboxes 
-Message 20 char min
-website
-email
-password
-phone number
-min number
-max number
-hex color
