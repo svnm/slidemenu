@@ -1,0 +1,23 @@
+{
+  "name": "slidemenu",
+  "version": "0.0.1",
+  "description": "css module for an animated slide menu with svg",
+  "license": "MIT",
+  "repository": "StevenIseki/slidemenu",
+  "author": "Steven Iseki",
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.3"
+  },
+  "keywords": [
+    "norvex",
+    "less",
+    "minimal"
+  ],
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-concat-css": "*",
+    "gulp-minify-css": "*",
+    "gulp-rename": "*"
+  }
+}

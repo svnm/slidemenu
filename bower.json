@@ -1,0 +1,21 @@
+{
+  "name": "norvex",
+  "version": "0.0.2",
+  "homepage": "http://norvex.io/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StevenIseki/norvex"
+  },
+  "authors": [
+    "Steven Iseki Martin (http://stevenisekimart.in)"
+  ],
+  "description": "Norvex is a minimal ui css library.",
+  "main": "css/norvex.css",
+  "keywords": [
+    "css",
+    "norvex",
+    "responsive",
+    "boilerplate"
+  ],
+  "license": "MIT"
+}
