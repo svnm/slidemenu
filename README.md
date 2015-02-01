@@ -1,14 +1,13 @@
-#norvex
+#slide menu
 
 a css module for an animated slide menu with svg
 
 ## Quick Start
 
-To get started with norvex either:
+To get started with slide menu either:
 - Download the latest release
 - Clone the repo `git clone https://github.com/StevenIseki/slidemenu.git`
 - Install with [Bower](http://bower.io): `bower install slidemenu`
-- Install with [npm](http://npmjs.org): `npm install slidemenu`
 
 ## License
 
