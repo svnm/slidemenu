@@ -9,8 +9,8 @@ a {
 
 a:hover,
 a:focus {
-    color: #393;
     outline: none;
+    text-decoration: underline;
 }
 
 .container {
@@ -78,7 +78,7 @@ a:focus {
 }
 
 .menu__handle {
-    background: #e3e3e3;
+    background: transparent;
     border: none;
     width: 30px;
     height: 24px;
