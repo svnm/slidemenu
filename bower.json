@@ -1,21 +1,20 @@
 {
-  "name": "norvex",
-  "version": "0.0.2",
-  "homepage": "http://norvex.io/",
+  "name": "slidemenu",
+  "version": "0.0.1",
+  "homepage": "http://Isekivace.nz/slidemenu",
   "repository": {
     "type": "git",
-    "url": "https://github.com/StevenIseki/norvex"
+    "url": "https://github.com/StevenIseki/slidemenu"
   },
   "authors": [
     "Steven Iseki Martin (http://stevenisekimart.in)"
   ],
-  "description": "Norvex is a minimal ui css library.",
-  "main": "css/norvex.css",
+  "description": "a css module for an animated slide menu with svg",
+  "main": "slidemenu.css",
   "keywords": [
     "css",
-    "norvex",
     "responsive",
-    "boilerplate"
+    "slidemenu"
   ],
   "license": "MIT"
 }

@@ -1,7 +1,7 @@
 {
   "name": "slidemenu",
   "version": "0.0.1",
-  "description": "css module for an animated slide menu with svg",
+  "description": "a css module for an animated slide menu with svg",
   "license": "MIT",
   "repository": "StevenIseki/slidemenu",
   "author": "Steven Iseki",

@@ -1,26 +1,20 @@
 body{background:#e3e3e3}
-a{color:#fff;text-decoration:none}
-a:focus,a:hover{outline:0;text-decoration:underline}
-.container{text-align:center;padding:5.25em .5em 0}
-.menu{position:fixed;width:240px;top:0;bottom:0;left:0;z-index:100;overflow:hidden;transform:translate3d(-150px,0,0);transition:transform .6s}
-.menu.menu--open{transform:translate3d(0,0,0)}
-.menu__inner{width:calc(100% + 15px);padding:0 100px 2em 0;overflow-y:auto;height:100%;position:relative;z-index:100}
-.menu ul{list-style:none;padding:0;margin:0}
-.menu ul li{transform:translate3d(-150px,50px,0);transition:transform .6s;height:24px;line-height:24px}
-.menu.menu--anim ul li{transform:translate3d(0,0,0)}
-.menu ul li:first-child{transition-delay:.3s}
-.menu ul li:nth-child(2){transition-delay:.2s}
-.menu ul li:nth-child(3){transition-delay:.1s}
-.menu ul li a{display:block;outline:0}
-.menu__handle{background:0 0;border:none;width:30px;height:24px;padding:0;outline:0;position:absolute;top:3px;right:45px;z-index:2000}
-.menu__handle span,.menu__handle::after,.menu__handle::before{background:#fff}
-.menu__handle::after,.menu__handle::before{content:'';position:absolute;height:2px;width:100%;left:0;top:50%;transform-origin:50% 50%;transition:transform .25s}
-.menu__handle span{position:absolute;width:100%;height:2px;left:0;overflow:hidden;text-indent:200%;transition:opacity .25s}
-.menu__handle::before{transform:translate3d(0,-10px,0)}
-.menu__handle::after{transform:translate3d(0,10px,0)}
-.menu--open .menu__handle span{opacity:0}
-.menu--open .menu__handle::before{transform:rotate3d(0,0,1,45deg)}
-.menu--open .menu__handle::after{transform:rotate3d(0,0,1,-45deg)}
-.morph-shape{position:absolute;width:160px;height:100%;top:0;right:0}
+.slide-menu a{color:#fff;text-decoration:none;-webkit-transition:all .5s ease-in;transition:all .5s ease-in}
+.slide-menu a:focus,.slide-menu a:hover{border-bottom:1.2px solid #fff}
+.slide-menu li{max-width:20px;padding-top:5px}
+.slide-menu ul{list-style:none;padding:0 0 0 40px}
+.slide-menu{position:fixed;width:250px;top:0;bottom:0;left:0;z-index:100;overflow:hidden;transform:translate3d(-150px,0,0);transition:transform .6s}
+.slide-menu-open{transform:translate3d(0,0,0)}
+.slide-menu-inner{width:calc(100% + 15px);padding:0 100px 2em 0;overflow-y:auto;height:100%;position:relative;z-index:100}
+.slide-menu-handle{background:0 0;border:none;width:40px;height:40px;outline:0;position:absolute;top:10px;right:40px;z-index:1000}
+.slide-menu-handle span,.slide-menu-handle::after,.slide-menu-handle::before{background:#fff}
+.slide-menu-handle::after,.slide-menu-handle::before{content:'';position:absolute;height:2px;width:100%;left:0;top:50%;transform-origin:50% 50%;transition:transform .25s}
+.slide-menu-handle span{position:absolute;width:100%;height:2px;left:0;overflow:hidden;text-indent:200%;transition:opacity .25s}
+.slide-menu-handle::before{transform:translate3d(0,-10px,0)}
+.slide-menu-handle::after{transform:translate3d(0,10px,0)}
+.slide-menu-open .slide-menu-handle span{opacity:0}
+.slide-menu-open .slide-menu-handle::before{transform:rotate3d(0,0,1,45deg)}
+.slide-menu-open .slide-menu-handle::after{transform:rotate3d(0,0,1,-45deg)}
+.morph-shape{position:absolute;width:200px;height:100%;top:0;right:0}
 .morph-shape svg path{stroke:#fff;stroke-width:2px}
-.menu--open .morph-shape svg path{stroke:#fff;stroke-width:4px}
+.slide-menu-open .morph-shape svg path{stroke:#fff;stroke-width:4px}
