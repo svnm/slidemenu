@@ -1,13 +1,23 @@
-#slide menu
+# slide menu
 
-a css module for an animated slide menu with svg
+slide menu is a css module for an animated slide menu with svg
 
-## Quick Start
+![](screenshot.png)
 
-To get started with slide menu either:
-- Download the latest release
-- Clone the repo `git clone https://github.com/StevenIseki/slidemenu.git`
-- Install with [Bower](http://bower.io): `bower install slidemenu`
+## Installation
+
+- Download the latest release as a zip
+- or clone the repo `git clone https://github.com/StevenIseki/cancolor.git`
+- or install with [Bower](http://bower.io): `bower install cancolor`
+
+## Usage
+
+Include slidemenu.css and slidemenu.js onto your page
+
+## Example
+
+view a demo of slidemneu on [isekivace.nz/slidemenu/](http://isekivace.nz/slidemenu/)
+
 
 ## License
 
