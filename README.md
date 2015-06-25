@@ -7,7 +7,7 @@ slide menu is a css module for an animated slide menu with svg
 ## Installation
 
 - Download the latest release as a zip
-- or clone the repo `git clone https://github.com/StevenIseki/cancolor.git`
+- or clone the repo `git clone https://github.com/StevenIseki/slidemenu.git`
 
 ## Usage
 
